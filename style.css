@@ -1,0 +1,55 @@
+body {
+  background-color: #18181a;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-family: 'Inter';
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+h1 span {
+  font-weight: bold;
+}
+span {
+  color: #FF9900;
+}
+#hero {
+  width: 592px;
+  margin: 20px auto 72px;
+}
+#hero img {
+  margin-bottom: 10px;
+}
+p, #footer{
+  font-family: 'Open Sans';
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+@media (max-height: 660px) {
+  #footer {
+    margin-bottom: 33px;
+  }
+}
+a {
+  text-decoration: none;
+  color: #FF9900;
+}
+#footer a + a { /*Esse a + a serve para especificar mais ainda, por exemplo aqui. "pegue o a que anterior a ele tenha outro a. Aqui nós lemos de trás para frente.*/
+  margin-left: 28px;
+}
+#footer #line {
+  width: 568px;
+  height: 0;
+  margin: 0px auto 10px;
+  border: 1px solid #2d2e2e;
+}
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
